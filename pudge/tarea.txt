@@ -1,0 +1,10 @@
+_______________________
+|° codigo	       |
+|° apellido paterno    |
+|° apellido materno    |
+|° nombre	       |
+_______________________
+
+digitar  _________   Buscar
+
+____________  carrera professional

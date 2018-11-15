@@ -73,6 +73,7 @@
     <Content Include="app\Default.aspx" />
     <Content Include="app\default.css" />
     <Content Include="app\estudiante.aspx" />
+    <Content Include="app\EstudianteXsexo.aspx" />
     <Content Include="app\Images\header-img.jpg" />
     <Content Include="app\Images\img02.jpg" />
     <Content Include="app\Images\img03.jpg" />
@@ -82,6 +83,7 @@
     <Content Include="app\indexs.html" />
     <Content Include="app\Styles\Main.css" />
     <Content Include="app\Usuarios.aspx" />
+    <Content Include="app\webConsultaEstudiante.aspx" />
     <Content Include="App_Data\DB.mdf" />
     <Content Include="App_Data\DB_log.ldf">
       <DependentUpon>DB.mdf</DependentUpon>
@@ -125,6 +127,13 @@
     <Compile Include="app\estudiante.aspx.designer.cs">
       <DependentUpon>estudiante.aspx</DependentUpon>
     </Compile>
+    <Compile Include="app\EstudianteXsexo.aspx.cs">
+      <DependentUpon>EstudianteXsexo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\EstudianteXsexo.aspx.designer.cs">
+      <DependentUpon>EstudianteXsexo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="app\Sites1.Master.cs">
       <DependentUpon>Sites1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +144,13 @@
     </Compile>
     <Compile Include="app\Usuarios.aspx.designer.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\webConsultaEstudiante.aspx.cs">
+      <DependentUpon>webConsultaEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\webConsultaEstudiante.aspx.designer.cs">
+      <DependentUpon>webConsultaEstudiante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
