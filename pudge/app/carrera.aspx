@@ -9,6 +9,7 @@
             <asp:BoundField DataField="am_estudiante" HeaderText="am_estudiante" SortExpression="am_estudiante" />
             <asp:BoundField DataField="correo_estudiante" HeaderText="correo_estudiante" SortExpression="correo_estudiante" />
             <asp:BoundField DataField="nombre_carrera" HeaderText="nombre_carrera" SortExpression="nombre_carrera" />
+            
         </Columns>
         <RowStyle ForeColor="#000066" />
         <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
