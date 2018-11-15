@@ -67,11 +67,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\acercade.aspx" />
+    <Content Include="app\carrera.aspx" />
+    <Content Include="app\correo.aspx" />
     <Content Include="app\Default.aspx" />
+    <Content Include="app\default.css" />
+    <Content Include="app\estudiante.aspx" />
+    <Content Include="app\Images\header-img.jpg" />
+    <Content Include="app\Images\img02.jpg" />
+    <Content Include="app\Images\img03.jpg" />
+    <Content Include="app\Images\img04.jpg" />
+    <Content Include="app\Images\img05.jpg" />
+    <Content Include="app\Images\main-bg.jpg" />
+    <Content Include="app\indexs.html" />
     <Content Include="app\Styles\Main.css" />
+    <Content Include="app\Usuarios.aspx" />
+    <Content Include="App_Data\DB.mdf" />
+    <Content Include="App_Data\DB_log.ldf">
+      <DependentUpon>DB.mdf</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app\acercade.aspx.cs">
+      <DependentUpon>acercade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\acercade.aspx.designer.cs">
+      <DependentUpon>acercade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\carrera.aspx.cs">
+      <DependentUpon>carrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\carrera.aspx.designer.cs">
+      <DependentUpon>carrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\correo.aspx.cs">
+      <DependentUpon>correo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\correo.aspx.designer.cs">
+      <DependentUpon>correo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="app\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -79,18 +117,30 @@
     <Compile Include="app\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="app\estudiante.aspx.cs">
+      <DependentUpon>estudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\estudiante.aspx.designer.cs">
+      <DependentUpon>estudiante.aspx</DependentUpon>
+    </Compile>
     <Compile Include="app\Sites1.Master.cs">
       <DependentUpon>Sites1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="app\Sites1.Master.designer.cs">
-      <DependentUpon>Sites1.Master</DependentUpon>
+    <Compile Include="app\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\Sites1.Master" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -100,8 +150,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\Account\" />
-    <Folder Include="app\AppData\" />
-    <Folder Include="app\Images\" />
     <Folder Include="app\Scripts\" />
   </ItemGroup>
   <PropertyGroup>
