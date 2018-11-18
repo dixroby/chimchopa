@@ -1,10 +1,14 @@
+hacerla siguiente consulta [radio button] elegir uno de ellos
+
 _______________________
-|° codigo	       |
-|° apellido paterno    |
-|° apellido materno    |
-|° nombre	       |
+|Â° codigo	       |
+|Â° apellido paterno    |
+|Â° apellido materno    |
+|Â° nombre	       |
 _______________________
 
 digitar  _________   Buscar
+
+escribir/elegir [cualquiera] la carrera professional
 
 ____________  carrera professional
