@@ -36,9 +36,10 @@ Released   : 20121029
 			</div>
 			<div id="menu">
 				<ul>
-                    <li><a href="carrera.aspx" accesskey="2" title="">Carreras</a></li>
+                    <li id="flash"><a href="carrera.aspx" accesskey="2" title="">Carreras</a></li>
                     <li><a href="estudiante.aspx" accesskey="2" title="">Estudiantes</a></li>
                     <li><a href="correo.aspx" accesskey="2" title="">Correo</a></li>
+                    <li><a href="tarea.aspx" accesskey="2" title="">Tareas</a></li>
 					<li><a href="Default.aspx" accesskey="2" title="">Inicio</a></li>
 					<li class="current_page_item"><a href="acercade.aspx" accesskey="1" title="">Acerca de</a></li>
 				</ul>

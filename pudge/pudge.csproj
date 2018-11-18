@@ -82,12 +82,14 @@
     <Content Include="app\Images\main-bg.jpg" />
     <Content Include="app\indexs.html" />
     <Content Include="app\Styles\Main.css" />
+    <Content Include="app\tarea.aspx" />
     <Content Include="app\Usuarios.aspx" />
     <Content Include="app\webConsultaEstudiante.aspx" />
     <Content Include="App_Data\DB.mdf" />
     <Content Include="App_Data\DB_log.ldf">
       <DependentUpon>DB.mdf</DependentUpon>
     </Content>
+    <Content Include="app\tareaCosulta.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -138,6 +140,13 @@
       <DependentUpon>Sites1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="app\tarea.aspx.cs">
+      <DependentUpon>tarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\tarea.aspx.designer.cs">
+      <DependentUpon>tarea.aspx</DependentUpon>
+    </Compile>
     <Compile Include="app\Usuarios.aspx.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,6 +162,13 @@
       <DependentUpon>webConsultaEstudiante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="app\tareaCosulta.aspx.cs">
+      <DependentUpon>tareaCosulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\tareaCosulta.aspx.designer.cs">
+      <DependentUpon>tareaCosulta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
