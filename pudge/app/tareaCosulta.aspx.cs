@@ -71,11 +71,11 @@ namespace pudge
                     break;
 
                 default:
-                    SqlDataAdapter da3 = new SqlDataAdapter("SELECT   'no esta registrada en la base de datos'", conx);
+                    SqlDataAdapter da34 = new SqlDataAdapter("SELECT   'no esta registrada en la base de datos'", conx);
 
-                    System.Data.DataSet ds3 = new DataSet();
-                    da3.Fill(ds3, "estianteap");
-                    tTabla.DataSource = ds3.Tables["estianteap"];
+                    System.Data.DataSet ds34 = new DataSet();
+                    da34.Fill(ds34, "estianteap");
+                    tTabla.DataSource = ds34.Tables["estianteap"];
                     tTabla.DataBind();
                     break;
 
